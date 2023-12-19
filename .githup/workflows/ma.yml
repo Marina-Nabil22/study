@@ -1,5 +1,5 @@
 name: Marina
-on: push 
+on: push --all
    jops:
       marina:
         runs-on: ubuntu-latest
