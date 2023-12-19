@@ -1,11 +1,11 @@
 name: Marina
 on: push 
-jops:
- marina:
- runs-on: ubuntu-latest
- steps: 
- -name: print hi
- run: echo "hi i am here"
- -uses: checkput@v2
- -name: print hi2
- run: echo "hi2 i am here"
+   jops:
+      marina:
+        runs-on: ubuntu-latest
+          steps: 
+          -name: print hi
+          run: echo "hi i am here"
+          -uses: checkput@v2
+          -name: print hi2
+          run: echo "hi2 i am here"
